@@ -7,6 +7,9 @@ export class AwsIotCoreCustomDomainByCdkStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
+    // 下記を参考にした
+    // https://dev.classmethod.jp/articles/iot-custom-endpoint-ga/
+
     const zoneName: string = this.node.tryGetContext('zoneName');
     const atsEndpoint: string = this.node.tryGetContext('atsEndpoint');
 
