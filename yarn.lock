@@ -41,6 +41,17 @@
     "@aws-cdk/core" "1.102.0"
     constructs "^3.3.69"
 
+"@aws-cdk/aws-certificatemanager@1.102.0":
+  version "1.102.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-certificatemanager/-/aws-certificatemanager-1.102.0.tgz#44c29ee0e03ece423ae32a68b12ad70aa68c1930"
+  integrity sha512-eDom3dn+kXa8VQm/cdRfR/hEbgO3p5e0mwy/v5V4ytPVtjlMyulTq5Elg3rXqmjHLh2AsRsR8rbgwmlYIbKReg==
+  dependencies:
+    "@aws-cdk/aws-iam" "1.102.0"
+    "@aws-cdk/aws-lambda" "1.102.0"
+    "@aws-cdk/aws-route53" "1.102.0"
+    "@aws-cdk/core" "1.102.0"
+    constructs "^3.3.69"
+
 "@aws-cdk/aws-cloudformation@1.102.0":
   version "1.102.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-cloudformation/-/aws-cloudformation-1.102.0.tgz#b878ef0e4ea3e484b205a1d828debf280d7fe5ce"
